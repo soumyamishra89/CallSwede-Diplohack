@@ -1,7 +1,0 @@
-INDEX VERSION 1.3+/Volumes/Entertainment/diplohack/Edu4all-Diplohack/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-3153570802.index
-1213631739.index
-365095116.index
-4153905070.index
-2084974939.index
-1917671015.index
