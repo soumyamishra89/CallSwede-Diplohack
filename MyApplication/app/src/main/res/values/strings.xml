@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">snicksnack</string>
+    <string name="nativespeaker_text">Native</string>
+    <string name="learner_text">Learner</string>
+    <string name="register_text">Register</string>
+    <string name="no">No</string>
+    <string name="app_image_desc">App Logo</string>
+    <string name="callmeText">Call Me</string>
+    <string name="reregister_text">Re-Register</string>
+    <string name="report_text">Report</string>
+    <string name="report_header_text">please tell us about your concerns:</string>
+    <string name="language_default">Swedish</string>
+
+    <string name="remote_server">itsallaboutyour.space</string>
+    <string name="register_snicksnack_path">snicksnackregister.php</string>
+    <string name="push_notification_path">snicksnackpush_notification.php</string>
+    <string name="call_status_update_path">snicksnack_call_status_update.php</string>
+    <string name="yes">Yes</string>
+    <string name="country_default">Not Available</string>
+</resources>

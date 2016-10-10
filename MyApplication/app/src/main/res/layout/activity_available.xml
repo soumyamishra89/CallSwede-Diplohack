@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="diplohack.callswede.AvailableActivity">
+
+    <include layout="@layout/header"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp">
+
+    <diplohack.callswede.view.customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/callmeText"
+        android:id="@+id/callmeText"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="56dp"
+        android:layout_marginRight="20dp"
+        android:track="@drawable/switchtrack"
+        android:id="@+id/toggleButton"
+        android:theme="@style/SwitchTheme"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appColor"
+        android:textColor="@android:color/white"
+        android:text="@string/reregister_text"
+        android:textSize="20sp"
+        android:id="@+id/reregisterButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

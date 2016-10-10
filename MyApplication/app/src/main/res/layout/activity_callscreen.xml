@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="5"
+                android:background="#ffffffff">
+    <include layout="@layout/header"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/callinfolayout"
+            android:background="#fffafafa"
+            >
+
+        <diplohack.callswede.view.customviews.CustomTextView
+                android:id="@+id/caller_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"/>
+
+        <diplohack.callswede.view.customviews.CustomTextView
+                android:id="@+id/callState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Ringing"
+                android:textColor="@color/appColor"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                />
+
+        <TextView
+                android:id="@+id/callDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="4dp"
+                android:text="00:00"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/appColor"
+                android:textSize="16sp"/>
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_pic"
+            android:padding="0dip"
+            android:adjustViewBounds="true"
+            android:layout_weight="3"
+            android:contentDescription="Call background">
+
+    </ImageView>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/callEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:backgroundTint="@color/endcall"
+        android:clickable="true"
+        android:src="@drawable/ic_call_end_white_24dp"
+        android:layout_margin="16dp"
+        />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="diplohack.callswede.ReportActivity"
+    android:weightSum="1">
+<include layout="@layout/header"/>
+    <diplohack.callswede.view.customviews.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/report_header_text"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:labelFor="@+id/report_editText"/>
+    <View style="@style/Plain_Divider"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="386dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/report_editText"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"/>
+
+    <diplohack.callswede.view.customviews.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/report_text"
+        android:background="@color/appColor"
+        android:id="@+id/reportButton"
+        android:layout_gravity="bottom|center_horizontal"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#FFFFFF</color>
+    <!--<color name="colorPrimaryDark">#EEB66F</color>-->
+    <!--<color name="colorPrimaryDark">#920057</color>-->
+    <color name="colorPrimaryDark">#990066</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#fcfcfc</color>
+    <color name="colorMainBackground">#555</color>
+    <color name="colorNativeSpeaker">#D32F2F</color>
+    <color name="endcall">#FF0000</color>
+    <color name="colorSwitchOn">#009688</color>
+    <color name="appColor">#990066</color>
+    <!--<color name="appColor">#920057</color>-->
+    <color name="lightGrey">#dbdbdb</color>
+    <color name="endstart">#0055ff</color>
+    <color name="greyish">#fff2f1f2</color>
+
+</resources>
